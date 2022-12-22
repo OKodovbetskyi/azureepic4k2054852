@@ -1,7 +1,7 @@
 import express from 'express';
 const app = express()
 const port = process.env.PORT || 3000
-
+console.log("hello from docker");
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
